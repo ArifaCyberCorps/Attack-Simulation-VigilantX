@@ -1,0 +1,27 @@
+system:
+  name: "VigilantX"
+  version: "1.0.0-prototype"
+  environment: "simulation"
+
+pipeline:
+  poll_interval_sec: 2
+  log_directory: "logs/"
+
+detection:
+  brute_force_threshold: 5
+  brute_force_time_window_sec: 60
+  port_scan_threshold: 20
+  port_scan_time_window_sec: 10
+
+zyron_ai:
+  model_path: "data/models/zyron_rf.pkl"
+  anomaly_threshold: 0.85
+  risk_levels:
+    - LOW
+    - MEDIUM
+    - HIGH
+    - CRITICAL
+
+response:
+  auto_block_enabled: true
+  block_duration_sec: 3600
