@@ -1,5 +1,7 @@
 # VigilantX — Autonomous Cyber Defense Framework powered by Zyron AI
 
+> **Note:** This repository is for simulation and demonstration purposes only. It is a prototype-level framework and not a full working production-ready project.
+
 ## 1. Project Title
 VigilantX: Autonomous Cyber Defense Framework powered by Zyron AI
 
